@@ -1,10 +1,15 @@
 [pseudocode_and_explanation[1] (2).pdf](https://github.com/user-attachments/files/17357727/pseudocode_and_explanation.1.2.pdf)DSA Group 1 - PhoneBook
 
 Eben Erasmus - 224005642 ( UI() and DoublyNode() and combined everything)
+
 Oluwafemi Ogundare - 224013696 ( binarySearch() and getTail() )
+
 Stefan Weitz - 224064673 ( deleteAtGivenNumber() and findPosition() )
+
 Ethan Gerber - 224005634 ( getMiddle() and UpdateRecord() )
+
 Lisa Chikovore - 224097539 ( getSize() and insertAtTheEnd() )
+
 Sean Marimo - 223137219 ( nsertionSortSurname() and sortedInserted() )
 
 TO RUN MAKE SURE JCONNECTOR IS ADDED TO EXTRANAL LIABARIES!
