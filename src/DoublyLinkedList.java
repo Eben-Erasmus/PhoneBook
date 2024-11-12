@@ -14,6 +14,19 @@ public class DoublyLinkedList<T>
         return count;
     }
 
+    public void insertAtBeginning(T data, String firstName, String lastName)
+    {
+        DoublyNode<T> newNode = new DoublyNode<>(data, firstName, lastName);
+        if (head == null)
+        {
+            head = newNode;
+            return;
+        }
+        newNode.next = head;
+        head.prev = newNode;
+        head = newNode;
+    }
+
     public void insertAtEnd(T data, String firstName, String lastName)
     {
         DoublyNode<T> newNode = new DoublyNode<>(data, firstName, lastName);
